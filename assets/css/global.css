@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+h1,h2,h3,h4,h5,p{
+  font-family: Montserrat, sans-serif;
+}
+main {
+  flex: 1 0 auto;
+}
+
+nav{
+  background: rgba(33, 33, 33, 0.5);
+}
+
+nav ul li:hover {
+   background-color: #009688 ;
+}
+
+#portada{
+  height: 800px;
+  width: auto;
+}
+
+ h4{
+   background-color: rgba(38,38,38,0.6);
+   padding-top: 7px;
+   padding-bottom: 7px;
+ }
+
+ .parallax img{
+  width: 100%;
+ }
+
+#projects-text{
+    margin-top: 90%;
+    padding-left: 2px;
+    padding-right: 5px;
+    background-color: rgba(38,38,38,0.5);
+}
+
+#foto{
+  margin-top: 50%;
+  height: 250px;
+  width: auto;
+}
+
+.fa-github{
+  font-size: 48px;
+  margin-top: 5%;
+}
+
+#aboutMe{
+  height: 400px;
+}
+
+#projects{
+
+}
+
+@media only screen and (max-width: 500px) {
+  .parallax img{
+   max-width: 40%;
+  }
+
+  h4{
+    background-color: rgba(38,38,38,0.6);
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  #portada{
+    height: 400px;
+    width: auto;
+  }
+
+  #project-parallax{
+    height: 350px;
+  }
+
+  #foto{
+    margin-top: 20%;
+    height: 150px;
+    width: auto;
+  }
+ }
